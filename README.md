@@ -1,5 +1,34 @@
 # Dell-7460-Hackintosh-OC
 
+
+
+SE REALIZAN CAMBIOS AL  config.plist PARA PODER HACER LA ACTUALIZACION DE LA BETA 10 DE BIG SUR, 
+
+
+
+### CAMBIOS REALIZADOS DENTRO DE config.plist
+
+```
+~~~
+```
+
+* MISC
+  * Security
+    * SecureBootModel>String>Disabled
+* NVRAM
+  * 7C436110-AB2A-4BBB-A880-FE41995C9F82
+    * csr-active-config>Data>00000000
+
+```
+~~~
+```
+
+
+
+__________________________________________________
+
+
+
 EFI使用有问题？请参考这篇文档[黑苹果安装指北手册](https://howiehye.top/post/9ff9620/)
 
 ## 说明
