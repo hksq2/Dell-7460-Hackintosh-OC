@@ -1,8 +1,38 @@
-# Dell-7460-Hackintosh-OC
+# Dell-7460-Hackintosh-OC 
 
+##	Se egregan kext para soporte de tarjeta Wi-Fi/Bluetooth Intel Dual Band AC 3165
 
+* itlwm.kext
 
-SE REALIZAN CAMBIOS AL  config.plist PARA PODER HACER LA ACTUALIZACION DE LA BETA 10 DE BIG SUR, 
+* IntelBluetoothInjector.kext
+
+* IntelBluetoothFirmware.kext
+
+### SE EDITA SECCION DEL KERNEL EN Config.plist con PlistEditPro
+
+ITEMS
+
+* 20
+
+* 21
+
+* 22
+
+* 23
+
+* 24
+
+  
+
+  -Con esto se activa el boton ACTIVAR/DESACTIVAR del Bluetooth
+
+  -Aun se tienes detalles con la interferencia del Wi-Fi y el Bluetooth cuando se esta conectado a una red wi-Fi de 2.4 Ghz y el Bluetooth activado.
+
+  
+
+_________
+
+SE REALIZAN CAMBIOS AL  config.plist PARA PODER HACER LA ACTUALIZACION DE LA BETA 10 DE BIG SUR
 
 
 
